@@ -1,0 +1,19 @@
+.react-tabs__tab-list{
+    border: none;
+}
+
+
+.react-tabs__tab--selected{
+
+}
+
+
+.react-tabs__tab{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+.react-tabs__tab li{
+    width: fit-content;
+}

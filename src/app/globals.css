@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  font-family: "museo-sans", sans-serif;
+}
+
+@layer base {
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    li {
+      font-family: "museo-sans", sans-serif;
+    }
+  
+    /* Global CSS Start*/
+    h1,
+    h2,
+    h3,
+    h4,
+    p {
+      font-family: "museo-sans", sans-serif;
+    }
+  
+    
+}
+
+
+
+
+
+
+.b{border: 1px solid red;}
+.y{border: 1px solid yellow;}
+
+
+.globalPara{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #757575;
+}
+
+.globalBrownBtn{
+  background-color: #BE8233;
+  padding: 15px 30px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1440px) {
+    .globalPara {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
